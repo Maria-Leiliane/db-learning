@@ -1,0 +1,16 @@
+{
+    "monitoring": {
+      "interval": "5m",
+      "alerts": {
+        "cpu_usage": {
+          "threshold": 80,
+          "action": "email"
+        },
+        "disk_space": {
+          "threshold": 90,
+          "action": "sms"
+        }
+      }
+    }
+  }
+  
